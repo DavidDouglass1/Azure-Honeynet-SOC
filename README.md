@@ -3,14 +3,15 @@
 
 ## Introduction
 
- I am thrilled to present my latest project, which focuses on building a honeynet in Azure to simulate real-world cyber attacks. 
-This project showcases my skills in Azure security, incident response, and environment hardening.
+ I am proud to present this project, which focuses on building a honeynet in Azure to simulate real-world cyber attacks. 
+This project showcases my skills in Microsoft Azure security, incident response, cloud engineering and environment hardening.
 
 ## Objective
 The main objective of this project was to [set up virtual machines that were intentionally vulnerable](Put in URL of project for setting up vm's in Microsoft Azure) in the Azure infrastructure to attract and analyze cyber attacks. This helped me to better understand the tactics and techniques used by attackers, while also showcasing my ability to respond quickly and effectively to any identified issues.
 
 ## Technologies, Regulations, and Azure Components Employed:
 
+- Entra ID (formerly called Azure Active Directory)
 - Azure Virtual Network (VNet)
 - Azure Network Security Group (NSG)
 - Virtual Machines (2x Windows, 1x Linux)
@@ -27,11 +28,11 @@ The main objective of this project was to [set up virtual machines that were int
 
 ## Methodology
 
-- <b>*Creating the honeynet*</b>: I began by [deploying multiple vulnerable virtual machines](Link to the vm deployment project) in Azure, simulating an insecure environment.
+- <b>*Creating the honeynet*</b>: I began by [deploying multiple vulnerable virtual machines](Link to the vm deployment project) in Azure, simulating an unsecure environment.
 
 - <b>*Monitoring and analysis*</b>: Azure was configured to ingest log sources from various resources into a log analytics workspace. Microsoft Sentinel was then used to build attack maps, trigger alerts, and create incidents based on the collected data.
 
-- <b>*Security metrics measurement*</b>: I observed the environment for 24 hours, recording key security metrics while it was insecure. This provided a baseline to compare against after implementing remediation measures.
+- <b>*Security metrics measurement*</b>: After verifying all logs were being properly sent to the correct workspace I observed the environment for 24 hours, recording key security metrics while it was unsecure. This provided a baseline to compare against after implementing remediation measures.
 
 - <b>*Incident response and remediation*</b>: After addressing the incidents and identifying vulnerabilities, I began the process of hardening the environment by applying security best practices and Azure-specific recommendations.
 
@@ -43,7 +44,7 @@ The main objective of this project was to [set up virtual machines that were int
 
 <b>Before Hardening Measures and Security Controls:</b>
 
-- In the "BEFORE" stage of the project, all resources were initially deployed with public exposure to the internet. This setup was intentionally insecure to attract potential cyber attackers and observe their tactics. The Virtual Machines had both their Network Security Groups (NSGs) and built-in firewalls wide open, allowing unrestricted access from any source. Additionally, all other resources, such as storage accounts and databases, were deployed with public endpoints visible to the internet, without utilizing any Private Endpoints for added security.
+- In the "BEFORE" stage of the project, all resources were initially deployed with public exposure to the internet. This setup was intentionally unsecure to attract potential cyber attackers and observe their tactics. The Virtual Machines had both their Network Security Groups (NSGs) and built-in firewalls wide open, allowing unrestricted access from any source. Additionally, all other resources, such as storage accounts and databases, were deployed with public endpoints visible to the internet, without utilizing any Private Endpoints for added security.
 
 ## Architecture After Implementing Hardening Measures and Security Controls
 ![Architecture Diagram](https://i.imgur.com/aeqOCFN.png)
@@ -99,7 +100,7 @@ enabling the creation of visualizations that effectively illustrated the cyber t
  
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics we measured in our insecure environment for 24 hours:
+The following table shows the metrics we measured in our unsecure environment for 24 hours:
 
 Start Time 2024-12-29 15:22:34<br>
 Stop Time 2024-12-30 17:22:34
