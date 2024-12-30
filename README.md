@@ -1,5 +1,5 @@
 # Azure Honeynet: Simulating Real-World Cyber Attacks
-![Cloud Honeynet / SOC](https://i.imgur.com/4qcVKgw.png)
+![Cloud Honeynet / SOC](https://imgur.com/aeqOCFN))
 
 ## Introduction
 
@@ -7,7 +7,7 @@
 This project showcases my skills in Azure security, incident response, and environment hardening.
 
 ## Objective
-The main objective of this project was to [set up virtual machines that were intentionally vulnerable](https://github.com/AmiliaSalva/Azure-VM-Prep/blob/main/README.md) in the Azure infrastructure to attract and analyze cyber attacks. This helped me to better understand the tactics and techniques used by attackers, while also showcasing my ability to respond quickly and effectively to any identified issues.
+The main objective of this project was to [set up virtual machines that were intentionally vulnerable](Put in URL of project for setting up vm's in Microsoft Azure) in the Azure infrastructure to attract and analyze cyber attacks. This helped me to better understand the tactics and techniques used by attackers, while also showcasing my ability to respond quickly and effectively to any identified issues.
 
 ## Technologies, Regulations, and Azure Components Employed:
 
@@ -27,7 +27,7 @@ The main objective of this project was to [set up virtual machines that were int
 
 ## Methodology
 
-- <b>*Creating the honeynet*</b>: I began by [deploying multiple vulnerable virtual machines](https://github.com/AmiliaSalva/Azure-VM-Prep/blob/main/README.md) in Azure, simulating an insecure environment.
+- <b>*Creating the honeynet*</b>: I began by [deploying multiple vulnerable virtual machines](Link to the vm deployment project) in Azure, simulating an insecure environment.
 
 - <b>*Monitoring and analysis*</b>: Azure was configured to ingest log sources from various resources into a log analytics workspace. Microsoft Sentinel was then used to build attack maps, trigger alerts, and create incidents based on the collected data.
 
@@ -39,7 +39,7 @@ The main objective of this project was to [set up virtual machines that were int
 
 
 ## Architecture Prior to Implementing Hardening Measures and Security Controls
-![Architecture Diagram](https://i.imgur.com/1tLjWY9.png)
+![Architecture Diagram](https://imgur.com/a/av5W2Kb)
 
 <b>Before Hardening Measures and Security Controls:</b>
 
