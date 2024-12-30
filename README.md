@@ -1,5 +1,5 @@
 # Azure Honeynet: Simulating Real-World Cyber Attacks
-![Cloud Honeynet / SOC](https://i.imgur.com/UxIiJtW.png)
+![Cloud Honeynet / SOC](https://i.imgur.com/XGkgYwl.png)
 
 ## Introduction
 
@@ -39,14 +39,14 @@ The main objective of this project was to [set up virtual machines that were int
 
 
 ## Architecture Prior to Implementing Hardening Measures and Security Controls
-![Architecture Diagram](https://imgur.com/a/av5W2Kb)
+![Architecture Diagram](https://i.imgur.com/Sfsf6HM.png)
 
 <b>Before Hardening Measures and Security Controls:</b>
 
 - In the "BEFORE" stage of the project, all resources were initially deployed with public exposure to the internet. This setup was intentionally insecure to attract potential cyber attackers and observe their tactics. The Virtual Machines had both their Network Security Groups (NSGs) and built-in firewalls wide open, allowing unrestricted access from any source. Additionally, all other resources, such as storage accounts and databases, were deployed with public endpoints visible to the internet, without utilizing any Private Endpoints for added security.
 
 ## Architecture After Implementing Hardening Measures and Security Controls
-![Architecture Diagram](https://i.imgur.com/ch1cAMU.png)
+![Architecture Diagram](https://i.imgur.com/aeqOCFN.png)
  <b>For the "AFTER" stage, I implemented a series of hardening measures and security controls to improve the environment's overall security posture. These improvements included:</b>
 
 - <b>Network Security Groups (NSGs)</b>: I hardened the NSGs by blocking all inbound and outbound traffic, with the sole exception of my own public IP address. This ensured that only authorized traffic from a trusted source was allowed to access the virtual machines.
