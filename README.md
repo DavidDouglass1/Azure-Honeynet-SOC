@@ -101,7 +101,7 @@ enabling the creation of visualizations that effectively illustrated the cyber t
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
 
-![Incidents Before Security Hardening](https://i.imgur.com/tuThpm5.png).
+![Incidents Before Security Hardening]<img src = "https://i.imgur.com/tuThpm5.png" width="200">.
 Start Time 2023-05-02 17:02:00 PM
 Stop Time 2023-05-03 17:02:00 PM
 
