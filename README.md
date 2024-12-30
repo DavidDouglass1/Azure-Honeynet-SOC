@@ -71,21 +71,21 @@ enabling the creation of visualizations that effectively illustrated the cyber t
 - <b>This attack map demonstrates the consequences of leaving the Network Security Group (NSG) open, as it allowed for malicious traffic to flow unimpeded. This visualization underscores the importance of implementing proper security measures, such as restricting NSG rules, to prevent unauthorized access and minimize potential threats.</b>
 
 
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/JeElX9R.png)<br>
+![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/WFDWYNc.png)<br>
 
  <br />
  <br />
  
  - <b>This attack map highlights the numerous syslog authentication failures experienced by the Linux server I deployed, indicating that unauthorized access attempts were made from outisde. This serves as a reminder of the importance of securing Linux servers with strong authentication mechanisms and monitoring system logs for signs of intrusion attempts.</b>
  
-![Linux Syslog Auth Failures](https://i.imgur.com/QW8PF0o.png)<br>
+![Linux Syslog Auth Failures](https://i.imgur.com/OWQBmDH.png)<br>
 
  <br />
  <br />
  
  - <b>This attack map showcases numerous RDP and SMB failures, illustrating the persistent attempts by potential attackers to exploit these protocols. The visualization emphasizes the need for securing remote access and file sharing services to protect against unauthorized access and potential cyber threats.</b>
  
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/SETmQBl.png)<br>
+![Windows RDP/SMB Auth Failures](https://i.imgur.com/r3B7xqp.png)<br>
 
  <br />
  <br />
