@@ -101,7 +101,7 @@ enabling the creation of visualizations that effectively illustrated the cyber t
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
 
-Start Time 2024-12-29 15:22:34
+Start Time 2024-12-29 15:22:34<br>
 Stop Time 2024-12-30 17:22:34
 
 | Metric                   | Count
