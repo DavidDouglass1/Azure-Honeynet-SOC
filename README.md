@@ -101,17 +101,16 @@ enabling the creation of visualizations that effectively illustrated the cyber t
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
 
-![Incidents Before Security Hardening]<img src = "https://i.imgur.com/tuThpm5.png" width="400">{: style="float:right"}.
-Start Time 2023-05-02 17:02:00 PM
-Stop Time 2023-05-03 17:02:00 PM
+Start Time 2024-12-29 15:22:34
+Stop Time 2024-12-30 17:22:34
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent (Windows VM)            | 21182
-| Syslog (Linux VM)                   | 4877
+| SecurityEvent (Windows VM)            | 21983
+| Syslog (Linux VM)                   | 31992
 | SecurityAlert (Microsoft Defender for Cloud            | 0
-| SecurityIncident (Sentinel Incidents)        | 343
-| NSG Inbound Malicious Flows Allowed | 969
+| SecurityIncident (Sentinel Incidents)        | 218
+| NSG Inbound Malicious Flows Allowed | 3611
 
 
 
