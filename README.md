@@ -118,17 +118,20 @@ Stop Time 2024-12-30 17:22:34
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
+
+Start Time 2023-03-18 15:37<br>
 Stop Time	2023-03-19 15:37
 
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent (Windows VM)            | 783
-| Syslog (Linux VM)                   | 23
+| SecurityEvent (Windows VM)            | 692
+| Syslog (Linux VM)                   | 0
 | SecurityAlert (Microsoft Defender for Cloud)            | 0
 | SecurityIncident (Sentinel Incidents)        | 0
 | NSG Inbound Malicious Flows Allowed | 0
+
+As shown in the table, SecurtityEvents reported from the Windows VM were reduced by 97% and all other metrics were reduced by 100%.
 
 ## Conclusion
 
