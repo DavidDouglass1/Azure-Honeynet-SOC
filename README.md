@@ -109,7 +109,7 @@ Stop Time 2024-12-30 17:22:34
 | ------------------------ | -----
 | SecurityEvent (Windows VM)            | 21983
 | Syslog (Linux VM)                   | 31992
-| SecurityAlert (Microsoft Defender for Cloud            | 0
+| SecurityAlert (Microsoft Defender for Cloud)            | 0
 | SecurityIncident (Sentinel Incidents)        | 218
 | NSG Inbound Malicious Flows Allowed | 3611
 
@@ -126,7 +126,7 @@ Stop Time	2023-03-19 15:37
 | ------------------------ | -----
 | SecurityEvent (Windows VM)            | 783
 | Syslog (Linux VM)                   | 23
-| SecurityAlert (Microsoft Defender for Cloud            | 0
+| SecurityAlert (Microsoft Defender for Cloud)            | 0
 | SecurityIncident (Sentinel Incidents)        | 0
 | NSG Inbound Malicious Flows Allowed | 0
 
